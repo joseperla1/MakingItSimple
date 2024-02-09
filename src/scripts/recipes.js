@@ -30,7 +30,7 @@
         },
         {   
             id:2,
-            img: "/basque-cheesecake.jpg",
+            img: "./basque-cheesecake.jpg",
             title:"Basque Cheesecake",
             description:"A delicious Cheesecake recipe without a graham cracker crust and a slightly burnt top",
             video:"https://www.youtube.com/watch?v=F4Ih4XxsL_A",
@@ -53,7 +53,7 @@
         },
         {
             id:3,
-            img: "/sofritas.jpg",
+            img: "./sofritas.jpg",
             title:"Spicy Sofritas",
             description:"A spicy meat alternative that utilizes Tofu along with spicy peppers like chipotle and poblano to make a savory topping for your burrito bowls",
             video:"",
@@ -77,7 +77,7 @@
         },
         {
             id:4,
-            img: "/bunuelos.jpg",
+            img: "./bunuelos.jpg",
             title:"Buenuelos",
             description:"Traditional Mexican Dessert that is crispy and extra sweet",
             video:"",
@@ -114,7 +114,7 @@
         },
         {
             id:5,
-            img: "/green-bean-casserole.jpg",
+            img: "./green-bean-casserole.jpg",
             title:"Green Bean Casserole",
             description:"Super easy simple side dish that is perfect for any holiday or family occasion.",
             video:"",
@@ -137,7 +137,7 @@
         },
         {
             id:6,
-            img: "/spanakopita.jpg",
+            img: "./spanakopita.jpg",
             title:"Spanakopita",
             description:"A delicious Greek Pie that is savory and full of flavors!",
             video:"",
@@ -169,7 +169,7 @@
         },
         {
             id:7,
-            img: "/baked-oatmeal.jpg",
+            img: "./baked-oatmeal.jpg",
             title:"Baked Oatmeal",
             description:"Simple and satisfying breakfast food that you can customize with the fruits of your choosing or any wonderful mix-in",
             video:"",
@@ -196,7 +196,7 @@
         },
         {
             id:8,
-            img: "/chicken-parmesan.jpg",
+            img: "./chicken-parmesan.jpg",
             title:"Chicken Parmesan",
             description:"A great dinner date recipe or any day recipe, that will leave you satisfied",
             video:"",
@@ -235,7 +235,7 @@
         },
         {
             id:9,
-            img: "/black-pepper-fish.webp",
+            img: "./black-pepper-fish.webp",
             title:"Black Pepper Fish",
             description:"A great and simple fish recipe that can expanded and will always taste amazing",
             video:"",
@@ -261,7 +261,7 @@
         },
         {
             id:10,
-            img: "/honey-ham.jpg",
+            img: "./honey-ham.jpg",
             title:"Honey Ham",
             description:"A juicy ham, that is more than just a Holiday meal",
             video:"",
@@ -291,7 +291,7 @@
         },
         {
             id:11,
-            img: "/chicken-tikka-masala.jpg",
+            img: "./chicken-tikka-masala.jpg",
             title:" Chicken Tikka Masala",
             description:" An Indian-inspired curry recipe",
             video:"",
@@ -338,7 +338,7 @@
 
         {
             id:12,
-            img: "/chicken-pesto-pasta.jpg",
+            img: "./chicken-pesto-pasta.jpg",
             title:"Chicken Pesto Pasta",
             description:"If it’s green it must be healthy, try this creamy pesto pasta and you will not go back to regular old spaghetti",
             video:"",
@@ -368,7 +368,7 @@
         },
         {
             id:13,
-            img: "/energy-ball.jpg",
+            img: "./energy-ball.jpg",
             title:"Energy Balls",
             description:"This snack is a no-bake, easy concoction full of healthy ingredients plus, it only takes 10 minutes!",
             video:"",
@@ -387,7 +387,7 @@
         },
         {
             id:14,
-            img: "/bbq-quinoa-burger.jpg",
+            img: "./bbq-quinoa-burger.jpg",
             title:"BBQ & Qunioa Patty Dish",
             description:"Another way to eat your vegan or nonvegan patties that is fun a flavorful",
             video:"",
@@ -412,7 +412,7 @@
         },
         {
             id:15,
-            img: "/vegetable-linguini.jpg",
+            img: "./vegetable-linguini.jpg",
             title:"Vegetarian Linguine",
             description:"A cheesy and colorful masterpiece that taste just as good as it looks",
             video:"",
@@ -439,7 +439,7 @@
         },
         {
             id:16,
-            img: "/baked-mac-and-cheese.jpg",
+            img: "./baked-mac-and-cheese.jpg",
             title:"Baked Mac and Cheese",
             description:"Add some crunch to your favorite side-dish",
             video:"",
