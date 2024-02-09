@@ -1,0 +1,94 @@
+
+.card{
+    border: 1px solid rgb(187, 178, 178);
+    border-radius: 15px;
+    box-shadow:4px 12px 40px 6px rgb(0,0,0,0.09);
+    background-color: rgba(245, 245, 245, 0.77);
+    display:flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    transform-style:preserve-3d; 
+    transform: perspective(1000px) rotateY(var(--rotate-y,0)) 
+    translateY(var(--translate-y, 0)); 
+    box-sizing: border-box;
+    color: black;
+    transition: .75s;
+    cursor: pointer;
+
+}
+.card-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 10px;
+}
+.card-flip{
+    --rotate-y:180deg ;
+}
+
+.card:hover{
+    --translate-y: -2px;
+    box-shadow:inset  0 0 10px 3px #5f44f6;
+    
+}
+.card .front,
+.card .back {
+    width:90%;
+    position:absolute;
+    padding: 1rem;
+    backface-visibility: hidden;
+    display: flex; 
+    flex-direction: column;
+
+}
+.card .front{
+    transform: rotateY(0deg);
+    
+}
+
+.card .back {
+    transform: rotateY(180deg);
+    
+}
+.card-image {
+    flex: 1;
+    overflow: hidden;
+    
+}
+.card-image img{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-info{
+    flex:1;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.card-info h2{
+    margin-bottom: 10px;
+}.container{
+    max-width: 2400px;
+    margin: 1rem 2rem;
+}
+.back-text {
+    text-align:left;
+    left: 0;
+}
+.back-text ul{
+    padding-left: 1rem;
+    margin-top: 0;
+
+}
+.back-text li{
+    margin-bottom:5px;
+}
+.back-text ol{
+    padding-left: 1rem;
+}
+.card-title{
+    margin-bottom: 0;
+}
